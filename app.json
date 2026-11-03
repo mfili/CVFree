@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CVFree",
+    "slug": "cvfree",
+    "version": "1.0.0",
+    "icon": "./assets/CVIcon.jpeg",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.cvfree.app",
+      "icon": "./assets/CVIcon.jpeg",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/CVIcon-adaptive.png",
+        "backgroundColor": "#173c3a"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.cvfree.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "owner": "mfili226",
+    "extra": {
+      "eas": {
+        "projectId": "20f3948f-069d-4f03-bd67-545c9b8e8614"
+      }
+    },
+    "plugins": [
+      "expo-image-picker"
+    ]
+  }
+}

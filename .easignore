@@ -1,0 +1,7 @@
+node_modules/
+dist/
+android/**/build/
+android/**/.cxx/
+android/local.properties
+hs_err_pid*.log
+replay_pid*.log
